@@ -1,29 +1,42 @@
-# personal-vue-boilerplate
+# Personal Vue Boilerplate
 
-## Project setup
-```
+This is a simple boilerplate I created which holds all my Sass mixins, linter preferences and whatever I end up using a lot. I'll be updating it time from time whenever I fix something or my preferences change.
+
+## Suggested Reading
+
+You should know about all this stuff if you decide to utilize this boilerplate for yourself. As well as some suggested [Vscode](https://code.visualstudio.com/) plugins :)
+
+-   [Scss](https://sass-lang.com/guide)
+-   [vue-router](https://github.com/vuejs/vue-router)
+-   [Eslint](https://github.com/microsoft/vscode-eslint) (Vscode Plugin)
+-   [Eslint VueJS Plugin](https://github.com/vuejs/eslint-plugin-vue 'Eslint Vuejs plugiin')
+-   [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript 'Airbnb JavaScript Style Guide')
+-   [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets) (Vscode Plugin)
+-   [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) (Vscode Plugin)
+-   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (Vscode Plugin)
+
+## Installation
+
+For installing the dependencies
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+## Running it
+
+### Dev Server
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+### Build
+
+```bash
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+## License
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[MIT](https://choosealicense.com/licenses/mit/)

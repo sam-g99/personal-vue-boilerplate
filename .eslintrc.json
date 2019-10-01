@@ -1,0 +1,19 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"parserOptions": {
+		"parser": "babel-eslint"
+	},
+	"extends": ["airbnb-base", "plugin:vue/recommended", "prettier"],
+	"plugins": ["prettier", "vue"],
+	"rules": {
+		"indent": ["error", "tab"],
+		"no-tabs": 0,
+		"vue/html-indent": ["error", "tab"],
+		"import/no-unresolved": 0,
+		"vue/html-self-closing": 0
+	}
+}

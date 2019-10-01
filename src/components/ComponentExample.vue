@@ -1,15 +1,12 @@
 <template>
-	<div id="App">
-		<router-view></router-view>
-	</div>
+	<div>Hey I'm a component</div>
 </template>
 
 <script>
-export default {
-	name: 'App',
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
 @import '@/assets/css/main.scss';
+
 </style>
