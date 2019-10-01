@@ -11,15 +11,19 @@
 		"airbnb-base",
 		"plugin:vue/recommended",
 		"prettier/vue",
-		"plugin:prettier/recommended"
+		"plugin:prettier/recommended",
+		"stylelint"
 	],
-	"plugins": ["prettier", "vue"],
 	"rules": {
-		"indent": ["error", "tab"],
 		"vue/component-name-in-template-casing": ["error", "PascalCase"],
-		"no-tabs": 0,
-		"vue/html-indent": ["error", "tab"],
 		"import/no-unresolved": 0,
-		"vue/html-self-closing": 0
+		"vue/html-self-closing": 0,
+		"quotes": ["error", "single"],
+		"prettier/prettier": ["error", { 
+			"singleQuote": true,
+			"useTabs": true,
+			"tabWidth": 2,
+			"trailingComma": true
+		}]
 	}
 }
