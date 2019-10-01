@@ -3,7 +3,7 @@
 		<div>
 			<h1>Sam's Vue Boilerplate</h1>
 			<p>Airbnb style guide</p>
-			<button>Go to repo</button>
+			<a href="https://github.com/sam-g99/personal-vue-boilerplate" target="_blank" rel="noopener noreferrer"></a>
 		</div>
 	</div>
 </template>
@@ -14,10 +14,5 @@ export default {};
 
 <style lang="scss" scoped>
 @import '@/assets/css/main.scss';
-.container {
-	align-content: center;
-	display: flex;
-	height: 100%;
-	width: 100%;
-}
+
 </style>
