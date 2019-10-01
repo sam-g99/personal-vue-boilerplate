@@ -7,10 +7,16 @@
 	"parserOptions": {
 		"parser": "babel-eslint"
 	},
-	"extends": ["airbnb-base", "plugin:vue/recommended", "prettier"],
+	"extends": [
+		"airbnb-base",
+		"plugin:vue/recommended",
+		"prettier/vue",
+		"plugin:prettier/recommended"
+	],
 	"plugins": ["prettier", "vue"],
 	"rules": {
 		"indent": ["error", "tab"],
+		"vue/component-name-in-template-casing": ["error", "PascalCase"],
 		"no-tabs": 0,
 		"vue/html-indent": ["error", "tab"],
 		"import/no-unresolved": 0,
