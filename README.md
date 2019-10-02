@@ -14,7 +14,7 @@ You should know about all this stuff if you decide to utilize this boilerplate f
 -   [Vue 2 Snippets](https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets) (Vscode Plugin)
 -   [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) (Vscode Plugin)
 -   [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) (Vscode Plugin)
-
+- [Vuex](https://vuex.vuejs.org/)
 ## Installation
 
 For installing the dependencies
