@@ -1,11 +1,5 @@
 <template>
-	<div
-		id="bosss"
-		class="okay-boss"
-		@click="boss"
-		@hover="yolo"
-		@dun="lkskdsklmdlkasmdklasm"
-	>
+	<div>
 		<p>Hey I'm a component</p>
 		<router-link to="/"> Home </router-link> <br />
 		<a
